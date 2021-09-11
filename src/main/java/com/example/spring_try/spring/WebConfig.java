@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-@ComponentScan( "com.example.spring_try" )
+@ComponentScan("com.example.spring_try")
 public class WebConfig implements WebMvcConfigurer {
 
     @Override
